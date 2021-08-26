@@ -1,0 +1,15 @@
+.xu-temp{display:none}
+.xu-dropdown{position:relative}
+.xu-dropdown.on label{height:2em}
+.xu-dropdown:not(.on) input:not(:checked){visibility:hidden}
+.xu-dropdown label{display:block;height:0em}
+.xu-dropdown input{margin:.5em;width:1em;height:1em;font-size:1em}
+.xu-dropdown input+span{z-index:-2}
+.xu-dropdown input:checked+span{z-index:-1}
+.xu-dropdown span{position:absolute;left:2em;right:0;height:2em;line-height:2;background:var(--backColor)}
+.xu-dropdown button{position:absolute;top:0;right:0;padding:0;border:0;width:2em;height:2em;font-size:1em;background:none}
+
+.xu-tabview{overflow:hidden;white-space:nowrap}
+.xu-tabview .on{position:relative}
+.xu-tabview .on::after{content:"";position:absolute;top:0;left:0;width:100%;border-top:3px solid currentColor}
+.xu-tabview .i{display:inline-block;width:100%;vertical-align:top;white-space:normal}
