@@ -27,7 +27,14 @@ xu.r(function(v){
 			c=i/60|0;
 			return ("0"+c).substr(-2)+":"+("0"+b).substr(-2)+":"+("0"+a).substr(-2);
 		},
-		ctl:function(a,b){return xu.post(b,this.pjs+a)}
+		ctl:function(a,b){return xu.post(b,this.pjs+a)},
+		deploy:function(a){
+			if(location.protocol=="http:"){
+				a=xu.body.querySelector(".https");
+				a.className+=" on";
+				a.href="https"+location.toString().substr(4);
+			}
+		}
 	});
 
 	var r=xu.html.querySelector("[src$='a.js']");
@@ -40,6 +47,10 @@ xu.r(function(v){
 		a=xu.doc.querySelector("[autofocus]");
 		if(a)a.focus();
 	});
+
+	try{
+		app.deploy();
+	}catch(e){}
 
 	addEventListener("click",function(e){
 		for(var p=e.target,i=16;p&&i>0;p=p.parentNode,i--){
