@@ -72,11 +72,13 @@ h1{margin:0;font-size:1.4em;line-height:2}
 .product li a{display:block;padding-bottom:.4em;height:100%;box-sizing:border-box}
 .product p{margin:0;font-size:.8em;min-height:4.5em;line-height:1.5em}
 
-.item{margin:auto;max-width:720px}
 .item h1{text-align:center}
+.item .wrap{margin:auto;max-width:720px}
+.item .content{box-shadow:inset 0 1px 1px #ccc}
+.item .info{margin:auto;padding-top:1em;max-width:720px}
 .item .img{display:flex;flex-wrap:wrap}
 .item .img img{width:50%;min-width:240px}
-.item .desc{padding:.4em 0}
+.item .desc{margin:auto;padding:.4em 0;max-width:720px;font-size:.8em}
 .item .order{padding:.5em 1em;border-radius:.5em;color:#fff;background:#07f;line-height:2}
 
 .detail img{border:2px solid #fff;width:100%;box-sizing:border-box;aspect-ratio:1;box-shadow:0 0 1px #888}
@@ -120,7 +122,8 @@ h1{margin:0;font-size:1.4em;line-height:2}
 .detail .badge .week{background:#c80}
 .detail dd.badge{display:inline;padding-right:.2em;line-height:1.7}
 
-.nav-path{margin:0;padding:0;list-style:none;height:2em;line-height:2;background:#fff;box-shadow:inset 0 -1px 1px #eee}
+.nav-path{background:#fff;box-shadow:inset 0 -1px 1px #eee}
+.nav-path ol{margin:auto;padding:0;list-style:none;height:2em;max-width:720px;line-height:2}
 .nav-path li{display:inline;position:relative;padding:0}
 .nav-path a{padding:1em .5em 1em .5em}
 .nav-path a::before{content:"";margin-left:-1em;padding-left:1em;background:url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%221em%22%20height%3D%221em%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M10%206L8.59%207.41L13.17%2012l-4.58%204.59L10%2018l6-6z%22%20fill%3D%22currentColor%22%2F%3E%3C%2Fsvg%3E') 50%}
