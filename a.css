@@ -28,7 +28,7 @@ h1{margin:0;font-size:1.4em;line-height:2}
 .menu span{display:flex;margin:.1em;padding:.4em;border:1px solid #eee;gap:.4em;align-items:center}
 .menu svg{flex:48px 0 0}
 
-.content p{margin-left:.4em}
+.content p{margin-left:.4em;margin-right:.4em}
 .content .text{padding:.4em 0 .4em .4em;font-size:1.4em}
 
 .cat{position:relative}
@@ -76,12 +76,12 @@ h1{margin:0;font-size:1.4em;line-height:2}
 .item .wrap{margin:auto;max-width:720px}
 .item .content{box-shadow:inset 0 1px 1px #ccc}
 .item .info{margin:auto;padding-top:.75em;max-width:720px}
-.item .img{display:flex;flex-wrap:wrap}
+.item .img{display:flex;flex-wrap:wrap;align-items:start}
 .item .img img{width:50%;min-width:240px}
 .item .desc{margin:auto;padding:.4em 0;max-width:720px;font-size:.8em}
 .item .order{padding:.5em 1em;border-radius:.5em;color:#fff;background:#07f;line-height:2}
 
-.detail img{border:2px solid #fff;width:100%;box-sizing:border-box;aspect-ratio:1;box-shadow:0 0 1px #888}
+.detail img{border:2px solid #fff;width:100%;box-sizing:border-box;box-shadow:0 0 1px #888}
 .detail dt{z-index:-1;position:absolute;color:#eee;opacity:.5}
 .detail dl{margin:0}
 .detail dd{margin:0;line-height:1.5}
