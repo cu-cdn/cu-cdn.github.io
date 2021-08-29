@@ -28,8 +28,9 @@ h1{margin:0;font-size:1.4em;line-height:2}
 .menu span{display:flex;margin:.1em;padding:.4em;border:1px solid #eee;gap:.4em;align-items:center}
 .menu svg{flex:48px 0 0}
 
-.content p{margin-left:.4em;margin-right:.4em}
-.content .text{padding:.4em 0 .4em .4em;font-size:1.4em}
+.home h1{padding:.5em;font-size:.8em}
+.home h2{padding:.4em 0 .4em .4em;font-size:1.4em}
+.home p{margin-left:.4em;margin-right:.4em}
 
 .cat{position:relative}
 .cat svg{vertical-align:top}
