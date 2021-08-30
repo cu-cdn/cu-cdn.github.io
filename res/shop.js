@@ -40,7 +40,7 @@ xu.t("shop",function(m,app){
 						a.parentNode.insertBefore(z,a);
 						a.parentNode.insertBefore(a,z);
 					}
-				},"/category-list.jar?name="+location.pathname);
+				},"/category-list.jar?name="+location.pathname.replace(/\.ps$/,""));
 			}
 		};
 
