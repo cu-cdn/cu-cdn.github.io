@@ -31,15 +31,14 @@ xu.t("shop",function(m,app){
 				this.pri_com(b[0],a[0]);
 				this.pri_com(b[1],a[1]);
 
-				a=content.querySelector(".nav-path");
+				a=content.querySelector(".cat");
 				xu.get(function(s,e){
 					if(s==2&&!e){
 						var z=document.createElement("div");
 						z.innerHTML=this.responseText;
 						z=z.children[0];
 						if(z){
-							a.parentNode.insertBefore(z,a);
-							a.parentNode.insertBefore(a,z);
+							a.parentNode.replaceChild(z,a);
 						}
 					}
 				},"/category-list.jar?name="+location.pathname.replace(/\.ps$/,""));
