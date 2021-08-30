@@ -37,8 +37,10 @@ xu.t("shop",function(m,app){
 						var z=document.createElement("div");
 						z.innerHTML=this.responseText;
 						z=z.children[0];
-						a.parentNode.insertBefore(z,a);
-						a.parentNode.insertBefore(a,z);
+						if(z){
+							a.parentNode.insertBefore(z,a);
+							a.parentNode.insertBefore(a,z);
+						}
 					}
 				},"/category-list.jar?name="+location.pathname.replace(/\.ps$/,""));
 			}
