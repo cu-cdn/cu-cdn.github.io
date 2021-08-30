@@ -33,7 +33,7 @@ h2{margin:0}
 .home h2{padding:.4em 0 .4em .4em;font-size:1.4em}
 .home p{margin-left:.4em;margin-right:.4em}
 
-.cat{position:relative}
+.cat{position:relative;min-height:2.5em}
 .cat svg{vertical-align:top}
 .cat a svg{margin-top:.25em;float:left}
 .cat [type=radio]{position:absolute;margin:0;left:-2em;width:2em;height:2em}
