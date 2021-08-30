@@ -135,6 +135,7 @@ h2{margin:0}
 
 .nav-page{position:sticky;bottom:0;display:flex;height:2em;line-height:2;background:#fffc}
 .nav-page a{flex:1;text-align:center}
+.nav-page a:not([href]){color:#999}
 .nav-page a span{display:block;margin:.1em;border:1px solid #eee}
 .nav-page .curr{text-decoration:underline}
 .nav-page .ex{display:none}
