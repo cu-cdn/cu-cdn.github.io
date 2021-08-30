@@ -48,6 +48,7 @@ h2{margin:0}
 .cat .content a{flex:auto;padding-left:3em;line-height:2.5}
 .cat .content .opt{flex:1;line-height:2}
 .cat .content .opt svg{float:left}
+.cat .ld{line-height:2.5}
 
 .filter{position:relative;padding-bottom:.4em}
 .filter [name=flr]{position:absolute;padding:0;top:-2.2em;right:0;width:2em;height:2em;font-size:1em}
