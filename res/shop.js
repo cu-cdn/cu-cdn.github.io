@@ -30,6 +30,17 @@ xu.t("shop",function(m,app){
 				var a=content.querySelectorAll(".price label i"),b=content.querySelectorAll(".price label input");
 				this.pri_com(b[0],a[0]);
 				this.pri_com(b[1],a[1]);
+
+				a=content.querySelector(".nav-path");
+				xu.get(function(s,e){
+					if(s==2&&!e){
+						var z=document.createElement("div");
+						z.innerHTML=this.responseText;
+						z=z.children[0];
+						a.parentNode.insertBefore(z,a);
+						a.parentNode.insertBefore(a,z);
+					}
+				},"/category-list.jar?name="+location.pathname);
 			}
 		};
 
