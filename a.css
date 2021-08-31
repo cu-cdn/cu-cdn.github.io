@@ -92,7 +92,7 @@ h2{margin:0}
 .detail dl .i{display:inline}
 .detail dl .b{display:inline-block}
 .detail .price{font-size:1.2em}
-.detail .un{padding-left:.4em;font-size:.8em}
+.detail .un{padding:0 2em 0 .4em;font-size:.8em}
 .detail .un em{font-style:normal}
 .detail .dis del{color:#777}
 .detail .dis0 i,.detail .dis1 i{color:#077}
