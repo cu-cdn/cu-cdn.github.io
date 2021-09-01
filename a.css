@@ -127,6 +127,8 @@ h2{margin:0}
 .detail .badge .week{background:#c80}
 .detail dd.badge{display:inline;padding-right:.2em;line-height:1.7}
 
+.product-more{padding-left:1em}
+
 .nav-path{background:#fff;box-shadow:inset 0 -1px 1px #eee}
 .nav-path ol{margin:auto;padding:0;list-style:none;height:2em;max-width:720px;line-height:2}
 .nav-path li{display:inline;position:relative;padding:0}
