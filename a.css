@@ -87,12 +87,12 @@ h2{margin:0}
 
 .detail img{border:2px solid #fff;width:100%;box-sizing:border-box;box-shadow:0 0 1px #888}
 .detail dt{z-index:-1;position:absolute;color:#eee;opacity:.5}
-.detail dl{margin:0;font-size:.8em}
+.detail dl{margin:0}
 .detail dd{margin:0;line-height:1.5}
 .detail dl .i{display:inline}
 .detail dl .b{display:inline-block}
 .detail .price{display:block;height:2rem;font-size:1.2em;line-height:2}
-.detail .un{display:block;margin-top:-2rem;padding-right:5em;font-size:.8em;text-align:right;line-height:2rem}
+.detail .un{display:block;margin-top:-1.5rem;padding-right:5em;font-size:.8em;text-align:right;line-height:1.5rem}
 .detail .un em{font-style:normal}
 .detail .dis del{color:#777}
 .detail .dis0 i,.detail .dis1 i{color:#077}
