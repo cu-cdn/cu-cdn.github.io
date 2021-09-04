@@ -98,6 +98,7 @@ h2{margin:0}
 .detail .dis0 i,.detail .dis1 i{color:#077}
 .detail .dis2 i,.detail .dis3 i,.detail .dis4 i{color:#f70}
 .detail .dis5 i,.detail .dis6 i,.detail .dis7 i,.detail .dis8 i,.detail .dis9 i,.detail .dis10 i{color:#00f}
+.detail .ratc{padding-left:.4em;font-size:.8em}
 .detail dd.r0{margin-right:5em;width:0}
 .detail dd.r5{margin-right:4.5em;width:.5em}.detail dd.r10{margin-right:4em;width:1em}
 .detail dd.r15{margin-right:3.5em;width:1.5em}.detail dd.r20{margin-right:3em;width:2em}
@@ -109,8 +110,7 @@ h2{margin:0}
 .detail dd.rata i:nth-child(1n+2){margin-left:-.5em}
 .detail dt.rate{background:none}
 .detail dd.rate{color:#0004;vertical-align:middle}
-.detail dt.ratc{position:static;padding-left:.4em;color:inherit}
-.detail dd.ratc{padding:0 .4em}
+.detail dt.ratc{position:static;color:inherit}
 .detail dt.dia::before{content:none}
 .detail dd.reward i{padding:0 .4em;border-radius:.2em;white-space:nowrap;box-shadow:0 0 2px #000}
 .detail .badge i{padding:.1em .2em;border-radius:.2em;color:#fff;font-style:normal;white-space:nowrap}
