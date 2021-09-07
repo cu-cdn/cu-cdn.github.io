@@ -92,7 +92,7 @@ h2{margin:0}
 .detail dl .i{display:inline}
 .detail dl .b{display:inline-block}
 .detail .price{display:block;height:2rem;font-size:1.2em;line-height:2}
-.detail .un{display:block;margin-top:-1.5rem;padding-right:5em;font-size:.8em;text-align:right;line-height:1.5rem}
+.detail .un{display:block;margin-top:-1.5rem;padding-right:2em;font-size:.8em;text-align:right;line-height:1.5rem}
 .detail .un em{font-style:normal}
 .detail .dis del{color:#777}
 .detail .dis0 i,.detail .dis1 i{color:#077}
