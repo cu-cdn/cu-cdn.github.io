@@ -34,10 +34,10 @@ xu.r(function(v){
 				a.className+=" on";
 				a.href="https"+location.toString().substr(4);
 			}
-			a=xu.body.querySelectorAll(".cu[title]");
+			a=xu.body.querySelectorAll("br[title]");
 			for(var s1,i=a.length-1;i>=0;i--){
 				s1=document.createElement("span");
-				s1.textContent=a[i].title;
+				s1.textContent=decodeURIComponent(a[i].title);
 				a[i].removeAttribute("title");
 				a[i].parentNode.insertBefore(s1,a[i]);
 			}
