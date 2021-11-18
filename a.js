@@ -35,11 +35,13 @@ xu.r(function(v){
 				a.href="https"+location.toString().substr(4);
 			}
 			a=xu.body.querySelectorAll("br[title]");
-			for(var s1,i=a.length-1;i>=0;i--){
+			for(var tx,s1,i=a.length-1;i>=0;i--){
+				tx=a[i].title;
 				s1=document.createElement("span");
-				s1.textContent=decodeURIComponent(a[i].title);
+				s1.textContent=decodeURIComponent(tx.trim());
 				a[i].removeAttribute("title");
 				a[i].parentNode.insertBefore(s1,a[i]);
+				if(tx[0]==" ")a[i].parentNode.removeChild(a[i]);
 			}
 		}
 	});
